@@ -15,3 +15,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "sjcompose"
 include(":app")
+
+
+include(":network")
+include(":comman")

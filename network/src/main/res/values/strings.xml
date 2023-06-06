@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 网络错误 -->
+    <string name="net_state_unavailable">网络无法使用\n请检查您的网络状态是否正常</string>
+    <string name="net_state_no_host">无法解析网络地址\n请检查您的网络是否正常</string>
+    <string name="net_state_disconnect">无法链接到服务器~\n请稍后重试~</string>
+    <string name="net_state_connect_timeout">网络请求超时, 请稍后重试~</string>
+    <string name="net_state_not_found">访问的接口不存在~</string>
+    <string name="net_state_unauthorized">您的操作未授权\n请确认是否登录或身份是否正确</string>
+    <string name="net_state_operate_too_many_times">请不要频繁操作~</string>
+    <string name="net_state_server_err">请求服务器错误，请稍后重试~</string>
+    <string name="net_state_bad_gateway">访问请求的响应超时，请稍后重试~</string>
+    <string name="net_state_http_unavailable">服务器资源无法访问，请联系客服~</string>
+    <string name="net_state_server_analysis_err">服务器数据解析错误~</string>
+    <string name="net_state_json_syntax_err">服务器数据序列化错误~</string>
+    <string name="net_state_request_err">数据请求失败，请稍后重试~</string>
+    <string name="net_state_request_failed">数据请求失败，原因：%s</string>
+
+    <!-- 文件下载 -->
+    <string name="file_download_error">文件下载时发生错误</string>
+    <string name="file_download_error_save">文件存储时发生未知错误</string>
+    <string name="file_download_canceled">文件下载被取消</string>
+</resources>
