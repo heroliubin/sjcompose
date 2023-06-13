@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.sjcompose"
+    namespace = "com.cnbizmedia.shangjie"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.sjcompose"
+        applicationId = "com.cnbizmedia.shangjie"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -52,11 +52,15 @@ dependencies {
     implementation(libs.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.compose.ui)
+    implementation(libs.androidx.constraintlayout.compose)
+    implementation(libs.googel.gson)
     implementation(libs.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
-    implementation(project(mapOf("path" to ":network")))
-    implementation(project(mapOf("path" to ":comman")))
+    implementation(libs.accompanist)
+    implementation(libs.navigation.compose)
+    api(project(mapOf("path" to ":network")))
+    api(project(mapOf("path" to ":comman")))
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     val composeplatom=platform(libs.androidx.compose.bom)

@@ -19,10 +19,7 @@ sealed class ApiCallback<out T : Any> private constructor() {
     data class Success<out T : Any> @JvmOverloads constructor(
         override var code: String? = null,
         override var message: String? = null,
-        val dataResult: T? = null,
-        var pagination: Pagination? = null,
-        var timestamp: String? = null,
-        var errors: Any? = null
+        val dataResult: T? = null
     ) : ApiCallback<T>()
 
     /**
@@ -50,7 +47,7 @@ sealed class ApiCallback<out T : Any> private constructor() {
         @JvmStatic
         fun <T : Any> from(value: IBasicRespInfo<T>): ApiCallback<T> = when {
             value.isSuccessful ->
-                Success(value.code, value.message, value.data, value.pagination, value.timestamp, value.errors)
+                Success(value.code, value.message, value.data)
             else -> Error(value.code, value.message)
         }
 

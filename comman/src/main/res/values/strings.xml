@@ -1,3 +1,27 @@
-<resources>
-    <string name="app_name">comman</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">common</string>
+
+    <string name="common_email_app_not_install" tools:ignore="ExtraTranslation">您未安装电子邮箱相关应用</string>
+    <string name="common_market_app_not_install" tools:ignore="ExtraTranslation">请先安装谷歌应用市场APP</string>
+
+    <!-- 字体缩放默认数值集合 -->
+    <integer-array name="FontSizeSeekBarDefaultScaleValues">
+        <item>89</item>
+        <item>100</item>
+        <item>122</item>
+        <item>156</item>
+        <item>166</item>
+        <item>181</item>
+    </integer-array>
+
+    <!-- 字体缩放默认文字描述集合 -->
+    <string-array name="FontSizeSeekBarDefaultDescriptions">
+        <item>超小</item>
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+        <item>超大</item>
+        <item>特大</item>
+    </string-array>
+
 </resources>

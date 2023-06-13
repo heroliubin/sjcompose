@@ -1,4 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">sjcompose</string>
-    <string name="title_activity_splash">SplashActivity</string>
+    <string name="app_mode">夜间模式</string>
+    <string name="app_name">lb</string>
+    <string name="app_null">暂无</string>
+    <string name="loading">正在加载...</string>
+    <string name="sending">正在发送...</string>
+    <string name="signuping">正在注册...</string>
+    <string name="clearing">正在清理缓存...</string>
+    <string name="app_tip">提示</string>
+    <string name="getting_prepayid">正在获取预支付订单...</string>
+    <string name="error_click_reload">加载失败,点击重试</string>
+    <string name="account_sign_in">登录</string>
+    <string name="input_email">请输入用户名</string>
+    <string name="email_format_error">位数不对，请输入正确的手机号码</string>
+    <string name="input_password">请输入密码</string>
+    <string name="account_bind_phone">绑定手机</string>
+    <string name="password_format_error">密码是由字母或数字的组合构成</string>
+    <string name="password_lenght_6_22">密码长度为6到22位</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="about_us">关于我们</string>
+    <string name="user_account">编辑资料</string>
+    <string name="earn">获得</string>
+    <string name="permission_write">修改商界数据</string>
+    <string name="no_more_data">没有更多数据</string>
+    <string name="network_error">网络不给力</string>
+    <string name="set_head">设置头像</string>
+    <string name="camera">相机</string>
+    <string name="album">图库</string>
+    <string name="cancel">取 消</string>
+    <!-- 获取 Token -->
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="app_key">23398710</string>
+    <string name="title_activity_connection_search">ConnectionSearchActivity</string>
+    <string name="title_activity_video_v5">VideoActivity_v5</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="agreeprivacy">欢迎使用商界,在您使用商界APP前,请认真阅读并了解商界《用户协议》和《隐私政策》.商界可能在您使用相关功能或服务时,需要在您的设备中开启特定的访问权限,以实现这些权限所涉及功能可以正常使用,包括:\n1.在您开启网络权限后,可使用网络浏览新闻内容;\n2.在您开启位置权限后,您允许商界获取您的位置信息,以便您了解更多本地的资讯;\n3.在您开启相机权限后,您允许商界访问相机,以便您使用扫描,拍照上传照片;\n4.您开启存储权限后,您允许商界进行缓存以提升您的浏览视频,资讯内容的体验;\n5.在您同意后,商界将获取个人设备信息（IMEI/MAC/Android ID/IDFA/OpenUDID/GUID/ IMSI）,以便为您提供更灵活、更智能、更有效的消息推送方案.</string>
+
+
 </resources>

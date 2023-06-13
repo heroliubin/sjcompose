@@ -6,6 +6,8 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.net.Uri
+import android.util.Log
+import kotlin.math.log
 
 internal class AppContextProvider : ContentProvider() {
 
@@ -23,6 +25,7 @@ internal class AppContextProvider : ContentProvider() {
     }
 
     override fun onCreate(): Boolean {
+        Log.e("cont","provider")
         mContext = this.context
         return false
     }

@@ -10,9 +10,6 @@ android {
 
     defaultConfig {
         minSdk = 24
-
-
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -35,15 +32,15 @@ android {
 }
 
 dependencies {
-
-    implementation(libs.core.ktx)
-    implementation(libs.retrofit2.retrofit)
-    implementation(libs.retrofit2.gson)
-    implementation(libs.okhttp3)
-    implementation(libs.kotlinx.coroutines)
-    implementation(libs.coroutines.adapter)
-    implementation(libs.lifecycle.viewmodel.ktx)
-    implementation(libs.lifecycle.livedata.ktx)
+    api(libs.core.ktx)
+    api(libs.retrofit2.retrofit)
+    api(libs.retrofit2.gson)
+    api(libs.okhttp3)
+    debugApi(libs.okhttp3.log)
+    api(libs.kotlinx.coroutines)
+    api(libs.coroutines.adapter)
+    api(libs.lifecycle.viewmodel.ktx)
+    api(libs.lifecycle.livedata.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)

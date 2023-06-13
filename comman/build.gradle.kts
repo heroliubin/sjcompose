@@ -9,11 +9,7 @@ android {
     compileSdk = 33
 
     defaultConfig {
-
         minSdk = 24
-        targetSdk = 33
-       
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -36,10 +32,17 @@ android {
 }
 
 dependencies {
-
-    implementation(libs.core.ktx)
-    implementation(libs.appcompat)
-    implementation(libs.material)
+    api(libs.glide)
+    api(libs.glide.transformations)
+    api(libs.glide.compose)
+    api(libs.eventbus)
+    api(libs.mmkv)
+    api(libs.core.ktx)
+    api(libs.appcompat)
+    api(libs.material)
+    api(libs.timber)
+    api(libs.googel.gson)
+    api(libs.coil.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
