@@ -24,6 +24,7 @@ import com.cnbizmedia.network.resp.ApiCallback
 import com.cnbizmedia.shangjie.R
 import com.cnbizmedia.shangjie.api.resp.ADlist
 import com.cnbizmedia.shangjie.app.SjConstants
+import com.cnbizmedia.shangjie.ui.weight.SjImage
 import com.cnbizmedia.shangjie.viewmodel.SplashViewModel
 import com.google.gson.Gson
 import java.lang.Exception
@@ -97,15 +98,7 @@ class SplashActivity : BaseActivity() {
 
 }
 
-@Composable
-fun SjImage(modifier: Modifier, model: Any) {
-//    GlideImage(
-//        modifier = modifier,
-//        model = model,
-//        contentDescription = null, contentScale = ContentScale.Crop
-//    )
-    AsyncImage(modifier = modifier, model = model, contentDescription = null)
-}
+
 
 @Preview
 @Composable
